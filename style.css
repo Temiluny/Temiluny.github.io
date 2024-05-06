@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	margin: 0 auto;
+	width: 100%;
+	background-color: #FFD6FF;
+	letter-spacing: 1px;
+}
+
+header {
+	margin: 0 auto;
+	height: 40px;
+	background-color: #5C1185;
+	align-content: center;
+}
+
+
+
+
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Ajusta la altura según tu preferencia */
+    background-color: #5C1185;
+    z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+	lign-content: center;
+}
+
+nav table {
+    width: 100%;
+    height: 100%;
+}
+
+nav table tr {
+    height: 100%;
+}
+
+nav table tr td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+nav a {
+    color: #FFD6FF;
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+	text-decoration: none;
+}
+
+
+main {
+	color: #5C1185;
+}
+
+
+
+
+
+
+.boton {
+    padding: 20px 30px;
+    background-color: #5C1185; /* Color de fondo predeterminado */
+    color: #FFD6FF; /* Color del texto */
+    border: solid;
+	border-color: #5C1185;
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave */
+	width: 100%;
+	font-size: 15px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	border-radius: 10px; /* Hace que los bordes del botón sean redondos */
+}
+
+.boton:hover {
+    background-color: #FFD6FF; /* Nuevo color de fondo al pasar el mouse */
+	color: #5C1185;
+	border: solid;
+	border-color: #5C1185;
+}
+
+.boton img {
+    vertical-align: middle; /* Alinear verticalmente la imagen con el texto */
+    width: 20px; /* Ancho de la imagen */
+    height: 20px; /* Altura de la imagen */
+    margin-right: 5px; /* Espacio a la derecha de la imagen */
+}
+
+.botoncito1:hover img {
+    content: url("Imágenes/Paypal 2.png");
+}
+
+
+
+
+.botoncito2:hover img {
+    content: url("Imágenes/telegram2.png");
+}
+
+
+
+
+
+
+
+
+
+
+.boton1 {
+    padding: 20px 30px;
+    background-color: #5C1185; /* Color de fondo predeterminado */
+    color: #FFD6FF; /* Color del texto */
+    border: solid;
+	border-color: #5C1185;
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave */
+	width: 100%;
+	height: 150px;
+	font-size: 15px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	border-radius: 10px; /* Hace que los bordes del botón sean redondos */
+	overflow: hidden; /* Oculta el contenido que se desborda */
+}
+
+.boton1:hover {
+    background-color: #FFD6FF; /* Nuevo color de fondo al pasar el mouse */
+	color: #5C1185;
+	border: solid;
+	border-color: #5C1185;
+}
+
+.boton1 img {
+    vertical-align: middle; /* Alinear verticalmente la imagen con el texto */
+    height: 100%; /* Altura de la imagen */
+    margin-right: 5px; /* Espacio a la derecha de la imagen */
+	bottom: 0; /* Posiciona la imagen en la parte inferior del botón */
+    right: 0; /* Posiciona la imagen en el borde derecho del botón */
+}
+
+.botoncio1:hover img {
+    content: url("Imágenes/Temi2.png");
+}
+
+
+
+
+
+
+.boton2 {
+    padding: 20px 30px;
+    background-color: #ffafcc; /* Color de fondo predeterminado */
+    color: #5C1185; /* Color del texto */
+    border: solid;
+	border-color: #5C1185;
+    cursor: pointer; /* Cambiar el cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave */
+	width: 100%;
+	height: 150px;
+	font-size: 15px;
+	font-weight: 100;
+	letter-spacing: 1px;
+	border-radius: 10px; /* Hace que los bordes del botón sean redondos */
+	overflow: hidden; /* Oculta el contenido que se desborda */
+}
+
+.boton2:hover {
+    background-color: #FFD6FF; /* Nuevo color de fondo al pasar el mouse */
+	color: #5C1185;
+	border: solid;
+	border-color: #5C1185;
+}
+
+.boton2 img {
+    vertical-align: middle; /* Alinear verticalmente la imagen con el texto */
+    height: 100%; /* Altura de la imagen */
+    margin-right: 5px; /* Espacio a la derecha de la imagen */
+	bottom: 0; /* Posiciona la imagen en la parte inferior del botón */
+    right: 0; /* Posiciona la imagen en el borde derecho del botón */
+}
+
+.botoncio1:hover img {
+    content: url("Imágenes/Temi2.png");
+}
+
+footer {
+	margin: 0 auto;
+	height: 30px;
+	align-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos de la línea divisoria */
+.divider {
+    margin: 60px 10%; /* Espacio alrededor de la línea */
+    border: none; /* Elimina el borde por defecto */
+    border-top: 1px solid #5C1185; /* Estilo de línea sólida y color gris */
+}
+
+
+
+.img1 {
+    float: left; /* Flota la imagen a la izquierda */
+    margin-right: 20px; /* Espacio entre la imagen y el texto */
+	align-items: center;
+	flex: 1;
+}
+
+
+
+
+
+
+
+
+
+
+.highlight {
+    color: #E70000; /* Cambia el color del texto resaltado */
+}
+
+
+
+
+
+
+
+
+
+
+
