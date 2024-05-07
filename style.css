@@ -125,7 +125,9 @@ main {
 }
 
 
-
+.botoncito3:hover img {
+    content: url("Imágenes/Koffi2.png");
+}
 
 
 
